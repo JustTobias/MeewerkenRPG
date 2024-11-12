@@ -105,4 +105,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 067f839ef02bc274d9b0352bc46bf623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 5995876926953828457, guid: d4eb61d207352994da7940aa67c6219a, type: 3}
+  theMap: {fileID: 0}
+  bottomLeftLimit: {x: 0, y: 0, z: 0}
+  topRightLimit: {x: 0, y: 0, z: 0}
