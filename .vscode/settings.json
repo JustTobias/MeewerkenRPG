@@ -56,5 +56,7 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "MeewerkenRPG.sln"
+    "dotnet.defaultSolution": "MeewerkenRPG.sln",
+    "dotnet.codeLens.enableReferencesCodeLens": false,
+    "dotnet.symbolSearch.searchReferenceAssemblies": false
 }
