@@ -122,7 +122,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.25, y: 3}
   m_EdgeRadius: 0
 --- !u!114 &1636767829352950886
 MonoBehaviour:
@@ -139,3 +139,4 @@ MonoBehaviour:
   areaToLoad: SampleScene
   areaTransitionName: 
   theEntrance: {fileID: 4940004373832927948}
+  waitToLoad: 1
