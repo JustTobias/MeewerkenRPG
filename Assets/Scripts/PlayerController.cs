@@ -12,8 +12,8 @@ public class PlayerController : MonoBehaviour
     public static PlayerController instance;
 
     public string areaTransitionName;
-    private Vector3 bottomLeftLimit;
-    private Vector3 topRightLimit;
+    public Vector3 bottomLeftLimit;
+    public Vector3 topRightLimit;
 
     // Start is called before the first frame update
     void Start()
