@@ -5820,6 +5820,10 @@ PrefabInstance:
       propertyPath: areaToLoad
       value: Town
       objectReference: {fileID: 0}
+    - target: {fileID: 1636767829352950886, guid: 3f9cfb9847e749b449b726b1d282245f, type: 3}
+      propertyPath: areaTransitionName
+      value: Countryside-town
+      objectReference: {fileID: 0}
     - target: {fileID: 2964609903329398586, guid: 3f9cfb9847e749b449b726b1d282245f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.5
