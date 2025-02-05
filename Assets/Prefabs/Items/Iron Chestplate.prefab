@@ -101,7 +101,7 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 1
   itemName: Iron Chestplate
-  itemDesc: A heavy but strong piece of equipment for the upper body
+  itemDesc: A heavy but strong piece of equipment for the upper body.
   value: 25
   itemSprite: {fileID: 21300014, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 0

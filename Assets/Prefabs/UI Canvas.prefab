@@ -6089,8 +6089,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -449, y: -24}
-  m_SizeDelta: {x: -953.7292, y: -96.2339}
+  m_AnchoredPosition: {x: 4.972229, y: -24}
+  m_SizeDelta: {x: -45.7849, y: -96.2339}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5166018866472928173
 CanvasRenderer:
@@ -14469,8 +14469,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -449, y: -24}
-  m_SizeDelta: {x: -953.7292, y: -96.2339}
+  m_AnchoredPosition: {x: 1.6259155, y: -24}
+  m_SizeDelta: {x: -52.4774, y: -96.2339}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5654348548610634145
 CanvasRenderer:
@@ -27594,7 +27594,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 87934176547439131}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8448289062966317557}
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: BuyItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4999649506973586552
 GameObject:
   m_ObjectHideFlags: 0
@@ -33089,7 +33101,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 600293092191088710}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8448289062966317557}
+        m_TargetAssemblyTypeName: Shop, Assembly-CSharp
+        m_MethodName: SellItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &5861134750770084054
 GameObject:
   m_ObjectHideFlags: 0
@@ -38567,6 +38591,96 @@ MonoBehaviour:
   buyMenu: {fileID: 3548753383790985858}
   sellMenu: {fileID: 1854777351829114469}
   goldText: {fileID: 5733320318417796570}
+  itemsForSale: []
+  buyItemButtons:
+  - {fileID: 704080397128593556}
+  - {fileID: 3785527076095706574}
+  - {fileID: 5264969832305108618}
+  - {fileID: 7362382024063238381}
+  - {fileID: 1311000211584102900}
+  - {fileID: 3590836685633623918}
+  - {fileID: 8028013766097177674}
+  - {fileID: 8207799688272981023}
+  - {fileID: 8391584391216336061}
+  - {fileID: 5932769914119645121}
+  - {fileID: 19929699706545536}
+  - {fileID: 7837454422457954903}
+  - {fileID: 4813473081006387891}
+  - {fileID: 6293900458605183249}
+  - {fileID: 5308496235986079249}
+  - {fileID: 633822727385590584}
+  - {fileID: 7190487996708757962}
+  - {fileID: 4269407277666415840}
+  - {fileID: 1587070069022845743}
+  - {fileID: 3169180470979770706}
+  - {fileID: 3409623105192326015}
+  - {fileID: 7916019670207356899}
+  - {fileID: 3754550100933377537}
+  - {fileID: 3780701820365657299}
+  - {fileID: 7709248082716133055}
+  - {fileID: 4348032581029063153}
+  - {fileID: 6437544037714027433}
+  - {fileID: 4352844879173393217}
+  - {fileID: 8974890774159618804}
+  - {fileID: 4094562993353538019}
+  - {fileID: 5218511184915758814}
+  - {fileID: 3963424119464774433}
+  - {fileID: 5386080108636968443}
+  - {fileID: 8054644677311279086}
+  - {fileID: 8673857123784939915}
+  - {fileID: 7822124282939684196}
+  - {fileID: 7726101124556924586}
+  - {fileID: 4418932124984983281}
+  - {fileID: 2604152138539161628}
+  - {fileID: 6042747743644039495}
+  sellItemButtons:
+  - {fileID: 5320967039204889240}
+  - {fileID: 3216494335322174217}
+  - {fileID: 7081250962318273770}
+  - {fileID: 4936670816540813956}
+  - {fileID: 8679425856218705258}
+  - {fileID: 8279024686223319404}
+  - {fileID: 4772796664557595164}
+  - {fileID: 8262055235623134468}
+  - {fileID: 7425148683516629517}
+  - {fileID: 6343810524266456560}
+  - {fileID: 3487800310755006227}
+  - {fileID: 7392082589162989379}
+  - {fileID: 8409964908864377194}
+  - {fileID: 999259500352434956}
+  - {fileID: 5971911741285116637}
+  - {fileID: 8166504282384710305}
+  - {fileID: 7997938228252111345}
+  - {fileID: 9061452001657244077}
+  - {fileID: 2921405315452256813}
+  - {fileID: 2191431576221699835}
+  - {fileID: 6058373325059764609}
+  - {fileID: 3019130002791020566}
+  - {fileID: 9163451560175062306}
+  - {fileID: 2797915275550437752}
+  - {fileID: 4380073971577723258}
+  - {fileID: 3816091331492861147}
+  - {fileID: 4147547719551286016}
+  - {fileID: 9053012708945326313}
+  - {fileID: 5215842327769340776}
+  - {fileID: 4610391324536793780}
+  - {fileID: 9205406566191884494}
+  - {fileID: 8097374131973924436}
+  - {fileID: 8656961888972094012}
+  - {fileID: 4598564863028810759}
+  - {fileID: 1602091187963932124}
+  - {fileID: 4249084963041310086}
+  - {fileID: 4124637467661985428}
+  - {fileID: 8207006821599403273}
+  - {fileID: 8043445803677483439}
+  - {fileID: 4619850052311985763}
+  selectedItem: {fileID: 0}
+  buyItemName: {fileID: 3016515839586979350}
+  buyItemDesc: {fileID: 6899160178697186794}
+  buyItemValue: {fileID: 1194062886571833904}
+  sellItemName: {fileID: 2859071738392342207}
+  sellItemDesc: {fileID: 3421422662012733463}
+  sellItemValue: {fileID: 6494099355898028694}
 --- !u!1 &7395830884051424784
 GameObject:
   m_ObjectHideFlags: 0

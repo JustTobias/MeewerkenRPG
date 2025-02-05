@@ -101,7 +101,7 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 0
   itemName: Mana Potion
-  itemDesc: A bottle of some magic fluid that restores 50 MP
+  itemDesc: A bottle of some magic fluid that restores 50 MP. Contains no alcohol.
   value: 10
   itemSprite: {fileID: 21300004, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 50

@@ -267,8 +267,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemsForSale:
-  - HP Potion
   - Mana Potion
+  - HP Potion
   - 
   - 
   - Iron Sword
@@ -276,6 +276,36 @@ MonoBehaviour:
   - 
   - 
   - Iron Chestplate
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
 --- !u!1 &421245699
 GameObject:
