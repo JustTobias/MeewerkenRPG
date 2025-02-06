@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7b29d7ebdaccd4681081f92eb0d8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  charName: Tim
+  charName: Henk
   playerLevel: 1
   currentExp: 250
   expToNextLevel: 
@@ -132,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 847236451817791958}
   - component: {fileID: 5513274907741643815}
+  - component: {fileID: 297904838577412687}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -227,6 +228,26 @@ MonoBehaviour:
   - {fileID: 2911197034674589905, guid: 44a687a1faec3cd4fb5033523f84fa5e, type: 3}
   - {fileID: 2337149853701536807, guid: 1e36cf450cfa2a547925548dce0aae4a, type: 3}
   currentGold: 500
+--- !u!114 &297904838577412687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4705512996213923512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048e11faa4e58384398f7ef46fc60db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questMarkerNames:
+  - 
+  - Fight the demon
+  - Enter the cave
+  - Quest test
+  - Save the world
+  - Do something
+  questMarkersComplete: 
 --- !u!1 &7867433866053481224
 GameObject:
   m_ObjectHideFlags: 0
