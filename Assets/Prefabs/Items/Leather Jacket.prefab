@@ -101,8 +101,7 @@ MonoBehaviour:
   isWeapon: 0
   isArmour: 1
   itemName: Leather Jacket
-  itemDesc: A nice leather jacket that makes you feel more safe. And yes, this comes
-    from a cow.
+  itemDesc: A nice leather jacket that makes you feel more safe
   value: 10
   itemSprite: {fileID: 21300010, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   amountToChange: 0
