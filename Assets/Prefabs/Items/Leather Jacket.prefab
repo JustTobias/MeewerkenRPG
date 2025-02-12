@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6084b85fe88592749a63d1ad6d9def48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isItem: 0
+  isItem: 1
   isWeapon: 0
   isArmour: 1
   itemName: Leather Jacket
