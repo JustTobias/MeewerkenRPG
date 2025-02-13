@@ -35,6 +35,7 @@ public class GameMenu : MonoBehaviour
     public Text goldText;
 
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +55,8 @@ public class GameMenu : MonoBehaviour
                 UpdateMainStats();
                 GameManager.instance.gameMenuOpen = true;
             }
+
+            AudioManager.instance.PlaySFX(5);
         }
     }
 
@@ -194,4 +197,10 @@ public class GameMenu : MonoBehaviour
         activeItem.Use(selectChar);
         CloseItemCharChoice();
     }
+
+public void PlayButtonSound(int soundToPlay) {
+    AudioManager.instance.PlaySFX(soundToPlay);
+}
+
+
 }

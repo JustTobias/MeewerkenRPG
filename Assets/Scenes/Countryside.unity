@@ -5799,6 +5799,10 @@ PrefabInstance:
       propertyPath: theMap
       value: 
       objectReference: {fileID: 57109040}
+    - target: {fileID: 5977066066087153306, guid: b9ff2940e8f6819438b3205ee2c10a06, type: 3}
+      propertyPath: musicToPlay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7905644904871195727, guid: b9ff2940e8f6819438b3205ee2c10a06, type: 3}
       propertyPath: m_Name
       value: Custom Camera
