@@ -176,6 +176,8 @@ public class GameManager : MonoBehaviour
     }
 
     public void LoadData() {
+        SceneManager.LoadScene(PlayerPrefs.GetString("Current_Scene"));
+        
         PlayerController.instance.transform.position = new Vector3(PlayerPrefs.GetFloat("Player_Position_X"),
                                                                    PlayerPrefs.GetFloat("Player_Position_Y"),
                                                                    PlayerPrefs.GetFloat("Player_Position_Z"));

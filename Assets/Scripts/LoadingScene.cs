@@ -23,6 +23,7 @@ public class LoadingScene : MonoBehaviour
 
                 GameManager.instance.LoadData();
                 QuestManager.instance.LoadQuestData();
+                GameManager.instance.transform.GetChild(0).gameObject.SetActive(true);
             }
         }
     }
